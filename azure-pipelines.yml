@@ -22,7 +22,3 @@ steps:
       # Write your commands here
       
       echo 'Hello world from task assistant by Joe'
-- task: PoliCheck@2
-  inputs:
-    targetType: 'F'
-    targetArgument: '$(Build.SourcesDirectory)'
